@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: boot-admin
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      label: development
+  profiles:
+    active: development,master
